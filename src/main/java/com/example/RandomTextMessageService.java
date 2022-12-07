@@ -2,7 +2,7 @@ package com.example;
 
 import org.springframework.stereotype.Component;
 
-@Component("com.example")
+@Component("messageServiceSecond")
 
 public class RandomTextMessageService implements MessageService{
 
