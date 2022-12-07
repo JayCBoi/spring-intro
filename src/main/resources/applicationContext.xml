@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--hashCode() - Different if scope="prototype" / Same if scope="singleton" -->
-<!--    <bean id="messageService" class="com.example.RandomTextMessageService" scope="prototype"/>-->
+    <bean id="messageService" class="com.example.RandomTextMessageService" scope="prototype"/>
 
-    <context:component-scan base-package="com.example" />
+<!--    <context:component-scan base-package="com.example" />-->
 </beans>
